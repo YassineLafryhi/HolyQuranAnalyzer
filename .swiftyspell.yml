@@ -1,0 +1,27 @@
+# Languages to check
+languages:
+  - en
+
+# Directories/Files/Regular expressions to exclude
+exclude:
+  - Constants.swift
+  - HolyQuranData.swift
+
+# Rules to apply
+rules:
+  - support_one_line_comment
+  - support_multi_line_comment
+  - ignore_capitalization
+  - ignore_swift_keywords
+  - ignore_commonly_used_words
+
+# Words/Regular expressions to ignore
+ignore:
+  - aya
+  - sura
+  - surah
+  - ayas
+  - suras
+  - oid
+  - basmala
+  - waw
